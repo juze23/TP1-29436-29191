@@ -109,6 +109,7 @@
     <None Include="Assets\UnityTechnologies\ParticlePack\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\UnityTechnologies\ParticlePack\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\UnityTechnologies\ParticlePack\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Hovl Studio\Magic effects pack\Demo scene\Readme.txt" />
     <None Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\UnityTechnologies\ParticlePack\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
