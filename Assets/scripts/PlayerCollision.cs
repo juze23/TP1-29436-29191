@@ -95,7 +95,6 @@ public class PlayerCollision : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Portal_end_game"))
         {
-            Debug.Log("Passou");
             WinMessage.SetActive(true);
             MusicSource.Stop();
             MusicSourceWIN.Play();

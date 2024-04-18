@@ -104,7 +104,6 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             Collect();
-            Debug.Log("bati no ground!");
             isGrounded = true;
         }
     }

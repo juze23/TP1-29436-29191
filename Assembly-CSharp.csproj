@@ -83,6 +83,7 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\scripts\ShipMovement.cs" />
     <Compile Include="Assets\scripts\ExplodeEffect.cs" />
+    <Compile Include="Assets\scripts\EndGameEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UnityTechnologies\ParticlePack\TextMesh Pro\Shaders\TMPro.cginc" />
