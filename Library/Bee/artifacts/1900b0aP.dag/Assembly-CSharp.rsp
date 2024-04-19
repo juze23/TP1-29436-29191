@@ -316,6 +316,7 @@
 "Assets/scripts/Exit.cs"
 "Assets/scripts/ExplodeEffect.cs"
 "Assets/scripts/Jogar.cs"
+"Assets/scripts/LoadScene.cs"
 "Assets/scripts/PlayerCam.cs"
 "Assets/scripts/PlayerCollision.cs"
 "Assets/scripts/PlayerMovement.cs"

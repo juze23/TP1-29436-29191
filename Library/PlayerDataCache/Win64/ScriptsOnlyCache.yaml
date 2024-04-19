@@ -1,14 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - CubeExplosion
     - DistanceScoreScript
     - EndGameEffect
     - Exit
     - Jogar
+    - LoadScene
     - PlayerCam
     - PlayerCollision
     - PlayerMovement
+    - Readme
     - ShipMovement
     Unity.Postprocessing.Runtime:
     - UnityEngine.Rendering.PostProcessing.Bloom
@@ -89,6 +93,9 @@ ScriptsOnlyBuild:
     fullTypeName: Exit
     methodName: ExitButton
   - assembly: Assembly-CSharp
+    fullTypeName: LoadScene
+    methodName: ExitButton
+  - assembly: Assembly-CSharp
     fullTypeName: Exit
     methodName: ExitButton
   - assembly: Assembly-CSharp
@@ -135,31 +142,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2366}
     - Class: 114
-      Script: {instanceID: 2834}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3062}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3396}
     - Class: 114
-      Script: {instanceID: 3884}
+      Script: {instanceID: 3886}
     - Class: 114
-      Script: {instanceID: 4512}
+      Script: {instanceID: 4514}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 5590}
+      Script: {instanceID: 5592}
     - Class: 114
-      Script: {instanceID: 6384}
+      Script: {instanceID: 6386}
     - Class: 114
-      Script: {instanceID: 6750}
+      Script: {instanceID: 6752}
     - Class: 114
-      Script: {instanceID: 6870}
+      Script: {instanceID: 6872}
     - Class: 114
-      Script: {instanceID: 7980}
+      Script: {instanceID: 7982}
     - Class: 114
-      Script: {instanceID: 8294}
+      Script: {instanceID: 8296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -218,35 +225,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1714}
     - Class: 114
-      Script: {instanceID: 2834}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3062}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3396}
     - Class: 114
-      Script: {instanceID: 3784}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 3786}
     - Class: 114
-      Script: {instanceID: 5230}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 5590}
+      Script: {instanceID: 5232}
     - Class: 114
-      Script: {instanceID: 6384}
+      Script: {instanceID: 5592}
     - Class: 114
-      Script: {instanceID: 6634}
+      Script: {instanceID: 6386}
     - Class: 114
-      Script: {instanceID: 6750}
+      Script: {instanceID: 6636}
     - Class: 114
-      Script: {instanceID: 6870}
+      Script: {instanceID: 6752}
     - Class: 114
-      Script: {instanceID: 7388}
+      Script: {instanceID: 6872}
     - Class: 114
-      Script: {instanceID: 7906}
+      Script: {instanceID: 7390}
     - Class: 114
-      Script: {instanceID: 8494}
+      Script: {instanceID: 7908}
+    - Class: 114
+      Script: {instanceID: 8496}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,6 +385,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: a6048830a66d73f8ce6115519ab46509
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadScene
   - hash:
       serializedVersion: 2
       Hash: ff086b2fc4609f8b094e7c0435c6db0a
