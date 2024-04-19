@@ -73,6 +73,7 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\GunShoot.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\scripts\LoadScene.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ParticleMenu.cs" />

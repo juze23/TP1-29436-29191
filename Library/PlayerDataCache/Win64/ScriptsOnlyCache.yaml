@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - CubeExplosion
     - DistanceScoreScript
@@ -11,7 +9,6 @@ ScriptsOnlyBuild:
     - PlayerCam
     - PlayerCollision
     - PlayerMovement
-    - Readme
     - ShipMovement
     Unity.Postprocessing.Runtime:
     - UnityEngine.Rendering.PostProcessing.Bloom
@@ -92,6 +89,9 @@ ScriptsOnlyBuild:
     fullTypeName: Exit
     methodName: ExitButton
   - assembly: Assembly-CSharp
+    fullTypeName: Exit
+    methodName: ExitButton
+  - assembly: Assembly-CSharp
     fullTypeName: Jogar
     methodName: PlayButton
   sceneClasses:
@@ -154,6 +154,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6384}
     - Class: 114
       Script: {instanceID: 6750}
+    - Class: 114
+      Script: {instanceID: 6870}
     - Class: 114
       Script: {instanceID: 7980}
     - Class: 114
@@ -244,7 +246,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7906}
     - Class: 114
-      Script: {instanceID: 8864}
+      Script: {instanceID: 8494}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1330,6 +1332,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 61d78dc81acf4993595ed5ac0dab44a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EndGameEffect
+  - hash:
+      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1370,12 +1378,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 61d78dc81acf4993595ed5ac0dab44a0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EndGameEffect
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

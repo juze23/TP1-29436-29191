@@ -19,7 +19,7 @@ public class DistanceScoreScript : MonoBehaviour
     private void Update()
     {
         distance = -(startPos.transform.position.x + this.transform.position.x);
-        scoreText.text = distance.ToString("F1") + "M";
+        scoreText.text = distance.ToString("F1") + "m";
         
     }
 }
