@@ -18,9 +18,9 @@ public class PlayerCollision : MonoBehaviour
     private bool collisionHandled = false;
     [SerializeField] private AudioClip deathClip;
     [SerializeField] private AudioClip Music;
-    [SerializeField] private AudioClip WinSound;
+    
     private AudioSource MusicSource;
-    private AudioSource MusicSourceWIN;
+
     private AudioSource audioSource;
 
     private void Start()
@@ -33,9 +33,9 @@ public class PlayerCollision : MonoBehaviour
      
         initialPosition = transform.position;
         audioSource = GetComponent<AudioSource>();
-        MusicSourceWIN = GetComponent<AudioSource>();
+        
         MusicSource = GetComponent<AudioSource>();
-        MusicSourceWIN.clip = WinSound;
+        
         MusicSource.clip = Music;
         MusicSource.Play();
     }
@@ -97,7 +97,7 @@ public class PlayerCollision : MonoBehaviour
         {
             WinMessage.SetActive(true);
             MusicSource.Stop();
-            MusicSourceWIN.Play();
+            
             Destroy(gameObject);
             gameObject.GetComponent<PlayerMovement>().enabled = false;
             Explosion.ExplodeCubes();
